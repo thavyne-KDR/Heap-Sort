@@ -4,14 +4,17 @@ Este projeto implementa o algoritmo Heap Sort em linguagem C, com um menu intera
 
 ## Como usar
 
+### Windows
+
 1. Compile o arquivo `heap_sort_main.c` com GCC:
    ```
-   gcc -o heap_sort_main heap_sort_main.c
+   gcc -o heap_sort_main.exe heap_sort_main.c
    ```
 2. Execute o programa:
    ```
-   ./heap_sort_main
+   .\heap_sort_main.exe
    ```
+
 3. Utilize o menu para inserir, ordenar e visualizar o vetor.
 
 ## Funcionalidades
@@ -25,4 +28,6 @@ Este projeto implementa o algoritmo Heap Sort em linguagem C, com um menu intera
 
 Trabalho individual por Thavyne Ribeiro
 
+## Repositório
 
+https://github.com/thavyne-KDR/Heap-Sort.git
