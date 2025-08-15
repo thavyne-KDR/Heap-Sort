@@ -1,38 +1,3 @@
-<<<<<<< HEAD
-# Heap Sort em C
-
-Este projeto implementa o algoritmo Heap Sort em linguagem C, com um menu interativo para facilitar o uso.
-
-## Como usar
-
-### Windows
-
-1. Compile o arquivo `heap_sort_main.c` com GCC:
-   ```
-   gcc -o heap_sort_main.exe heap_sort_main.c
-   ```
-2. Execute o programa:
-   ```
-   .\heap_sort_main.exe
-   ```
-
-3. Utilize o menu para inserir, ordenar e visualizar o vetor.
-
-## Funcionalidades
-
-- Inserção de vetor desordenado
-- Ordenação usando Heap Sort
-- Exibição do vetor
-- Menu interativo
-
-## Autor
-
-Trabalho individual por Thavyne Ribeiro
-
-## Repositório
-
-https://github.com/thavyne-KDR/Heap-Sort.git
-=======
 # ✨ Heap Sort — Estrutura de Dados II
 
 ---
@@ -46,6 +11,7 @@ Heap-Sort-master/
 ├── bin/        # Executáveis gerados
 ├── README.md   # Documentação do projeto
 ```
+
 ---
 
 ## 🧠 O que é Heap Sort?
@@ -59,7 +25,7 @@ Heap Sort é um algoritmo eficiente de ordenação que utiliza uma estrutura cha
 1. Abra o terminal na pasta do projeto.
 2. Compile o código:
    ```sh
-   gcc -Iinclude -o bin/programa src/HEAP.c src/HEAPmain.c src/heap_sort_main.c
+   gcc -Iinclude -o bin/programa src/HEAP.c src/HEAPmain.c
    ```
 3. Execute o programa:
    ```sh
@@ -75,7 +41,8 @@ Digite o tamanho do vetor: 5
 Digite os elementos do vetor desordenado:
 10 3 7 1 8
 Vetor original: 10 3 7 1 8
-Vetor ordenado pelo Heap Sort: 1 3 7 8 10
+Vetor ordenado pelo Heap Sort:
+1 3 7 8 10
 ```
 
 - Digite a quantidade de números que quiser.
@@ -97,4 +64,3 @@ Vetor ordenado pelo Heap Sort: 1 3 7 8 10
 ---
 
 Projeto acadêmico para fins didáticos.
->>>>>>> main
